@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+    overflow-x: hidden;
+  }
+  
+  canvas {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  span {
+    color: #ee720d;
+  }
+
+  .ball-text-1 {
+    position: fixed;
+    z-index: 2;
+    color: #e9c8bd;
+    font-size: 4rem;
+    right: 60%;
+    bottom: 30%;
+    transform: translate(120%, -40%);
+  }
+
+  .ball-text-2 {
+    position: fixed;
+    z-index: 2;
+    color: #e9c8bd;
+    font-size: 3rem;
+    right: 55%;
+    bottom: 10%;
+    transform: translate(65%, -40%);
+  }
+
+  .ball-text-3 {
+    position: fixed;
+    z-index: 2;
+    color: #e9c8bd;
+    font-size: 3rem;
+    right: 70%;
+    bottom: 20%;
+    transform: translate(220%, -40%);
+  }
+
+  .ball-text-4 {
+    position: fixed;
+    z-index: 2;
+    color: #e9c8bd;
+    font-size: 3rem;
+    right: 70%;
+    bottom: 35%;
+    transform: translate(220%, -40%);
+  }
+
+  .ball-text-5 {
+    position: fixed;
+    z-index: 2;
+    color: #e9c8bd;
+    font-size: 3rem;
+    right: 60%;
+    bottom: 25%;
+    transform: translate( 10%, -25%);
+  }
+  
+  .ball-text-6 {
+    position: fixed;
+    z-index: 2;
+    color: #ee720d;
+    font-size: 4rem;
+    right: 42%;
+    bottom: 50%;
+    transform: translate(-50%, -40%);
+  }
+
+  .get-ballzy-button {
+    position: fixed;
+    display: block;
+    z-index: 2; /* Use relative positioning */
+    right: 52%;
+    bottom: 35%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #ee720d; /* Border color */
+    color: #ee720d; /* Text color */
+    background-color: transparent; /* Transparent background */
+    padding: 20px 40px; /* Padding */
+    font-size: 1.5625rem; /* Font size */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer;
+    margin-top: 10px; 
+    margin-left: auto; 
+    margin-right: auto;
+  }
+  
+  
+  @media screen and (max-width: 1024px) {
+    .ball-text {
+      font-size: 2rem;
+      right: 25%;
+      bottom: 45%;
+      transform: translate(50%, 50%);
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    .get-ballzy-button {
+        font-size: 0.75rem;
+        right: 15%;
+        bottom: 35%;
+        margin-top: 5px; 
+        padding: 10px 20px;
+        
+
+    }
+  }
